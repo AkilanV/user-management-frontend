@@ -10,8 +10,6 @@ import { axiosInstance } from '../../utils/axiosinstance';
 
 
 const Login: React.FC = () => {
-  // const [email, setEmail] = useState('eve.holt@reqres.in');
-  // const [password, setPassword] = useState('cityslicka');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [rememberMe, setRememberMe] = useState(false);
